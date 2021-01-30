@@ -1,0 +1,28 @@
+name: AntiCheatTestUtil
+version: ${project.version}
+main: com.gladurbad.anticheattestutil.AnticheatTestUtil
+authors: [ GladUrBad ]
+description: Medusa AntiCheat Test Server Utilities
+
+commands:
+  pvp:
+    description: Gives you items for PvP
+    usage: /pvp
+  help:
+    description: Gives you a list of commands for the test-server.
+    usage: /help
+  invclear:
+    description: Clears your inventory
+    usage: /invclear
+  warp:
+    description: Teleport to a particular section of the map.
+    usage: /warp <warpName>
+  spawn:
+    description: Teleports you to the spawn of the testing map.
+    usage: /spawn
+  colour:
+    description: Changes the colour of Medusa alerts.
+    usage: /colour <chatColor>
+  alerts:
+    description: Toggles Medusa AntiCheat alerts.
+    usage: /alerts
